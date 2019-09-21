@@ -17,7 +17,6 @@ else:
   print("不合格")
 
 #%%
-
 # 練習3
 x = int(input("Input x: "))
 
@@ -30,7 +29,6 @@ elif (70 <= x < 80):
 elif (60 <= x < 70):
   print("可")
 else: print("不可")
-
 
 #%%
 # 最適化済み
