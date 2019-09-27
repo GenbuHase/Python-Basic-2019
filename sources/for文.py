@@ -26,3 +26,16 @@ for i in range(1, 21):
   if (not i % 3):
     print(i)
     if (not i % 2): print("6の倍数！")
+
+#%%
+# 最終課題 v1
+# Q. 3以上9999以下の奇数aで a^2 - a が10000で割り切れるものをすべて求めよ。
+for a in range(3, 10000, 2):
+  if not (a**2 - a) % 10000: print(a)
+
+#%%
+# 最終課題 v2
+# Q. 3以上9999以下の奇数aで a^2 - a が10000で割り切れるものをすべて求めよ。
+for a in range(3, 10000):
+  if (a % 2):
+    if not (a**2 - a) % 10000: print(a)
